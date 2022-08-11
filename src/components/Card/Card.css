@@ -1,0 +1,43 @@
+.card {
+	background-color: #F2F2F2;
+}
+
+.card__list {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style-type: none;
+}
+
+.card__item {
+	width: 264px;
+}
+
+.card__body {
+	padding: 24px 0 46px 24px;
+}
+
+.card__title {
+	margin-bottom: 16px;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 26px;
+	color: #111517;
+}
+
+.card__body-title {
+	display: block;
+	font-weight: 300;
+	width: 250px;
+}
+
+.card__body-text {
+	display: flex;
+	align-items: center;
+	margin-bottom: 8px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 16px;
+	color: #111517;
+}

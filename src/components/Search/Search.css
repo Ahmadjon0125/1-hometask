@@ -1,0 +1,28 @@
+.search {
+	background-color: #F2F2F2;
+}
+
+.search__inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 48px 0;
+}
+
+.search__input {
+	padding: 18px 270px 18px 74px; 
+	background: #FFFFFF;
+	box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.0532439);
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+.search__input::placeholder::before {
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-image: url("../../assets/images/search.svg");
+	background-repeat: no-repeat;
+	background-size: 18px 18px;
+	content: "";
+}
